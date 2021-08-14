@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c514c72add0d04d275de7e962011aadc",
+    "revision": "2ab7001e2aab561396ade66be5568808",
     "url": "/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/4.a8329f31.chunk.css"
   },
   {
-    "revision": "22a9bca7952ca670ecb4",
-    "url": "/static/css/main.e2dc0c64.chunk.css"
+    "revision": "9e48a21debbf84d1b76f",
+    "url": "/static/css/main.aa78a476.chunk.css"
   },
   {
     "revision": "0e5c074909ac916b260f",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/4.d57fbf72.chunk.js"
   },
   {
-    "revision": "22a9bca7952ca670ecb4",
-    "url": "/static/js/main.23dd1888.chunk.js"
+    "revision": "9e48a21debbf84d1b76f",
+    "url": "/static/js/main.035482b9.chunk.js"
   },
   {
     "revision": "2e188e151aafde75f6ca",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/hooni-ico.d4691062.png"
   },
   {
-    "revision": "c01429efb099343e377a3a75454ea14b",
-    "url": "/static/media/hooni.c01429ef.png"
+    "revision": "ab5a59e43d009f5c9aa8f151862264c4",
+    "url": "/static/media/hooni.ab5a59e4.png"
   },
   {
     "revision": "558a970f15c96efd5fa8482bf361293f",
