@@ -44,13 +44,13 @@
   font-size: 30px;
   line-height: 40px;
 }
-
+.greeting-image-div {
+  text-align: center;
+}
 .greeting-image-div > img {
-  flex: 1;
   max-width: 100%;
   height: auto;
-  margin-left: 50px;
-  margin-right: 50px;
+  text-align: center;
 }
 
 .wave-emoji {
