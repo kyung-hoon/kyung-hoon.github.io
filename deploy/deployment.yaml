@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hoonifolio-deployment
+  namespace: hooni-folio
+  labels:
+    app: hooni-folio
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hooni-folio
+  template:
+    metadata:
+      labels:
+        app: hooni-folio
+    spec:
+      containers:
+        - name: hooni-folio
+          image: kyunghoon451/hooni-folio:v0.0.2
+          command:
+            - sleep 1d
+          ports:
+            - containerPort: 3000

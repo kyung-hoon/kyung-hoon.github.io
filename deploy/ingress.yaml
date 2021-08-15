@@ -1,0 +1,22 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: hooni-folio
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    cert-manager.io/cluster-issuer: "letsencrypt"
+spec:
+  tls:
+    - hosts:
+        - hoonimin.com
+      secretName: lets-ecrypt-cert-h4vvb
+    rules:
+      - host: hoonimin.com
+        http:
+          paths:
+            - path: /
+              backend:
+                service:
+                  name: hooni-folio-service
+                  port:
+                    number: 80

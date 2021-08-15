@@ -100,6 +100,13 @@ const educationInfo = {
       subHeader: "Bachelor of engineering in Computer Science",
       duration: "March 2012 - February 2019",
       desc: "Participated in the research of implementing Chatbot based on seq-2-seq ",
+    },
+    {
+      schoolName: "Konkuk universitry",
+      logo: require("./assets/images/UI_Mark.jpg"),
+      subHeader: "Bachelor of engineering in industrial egineering",
+      duration: "March 2012 - February 2019",
+      desc: "Participated in the research of O.R and business intelligence papers",
     }
   ]
 };
